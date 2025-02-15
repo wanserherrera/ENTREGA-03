@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
+    
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -22,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre Mí</a></li>
-                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="proyectos.html">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
@@ -32,37 +33,32 @@
     </nav>
 
     <!-- Contenido Principal -->
-    <main class="container my-5">
-        <h1 class="text-center text-light">Proyectos</h1>
-        <p class="text-center text-secondary">Aquí podrás ver algunos de los proyectos en los que he trabajado.</p>
+    <main class="container my-5 text-center">
+        <h1 class="text-light">Proyectos</h1>
+        <p class="text-secondary">Aquí puedes ver algunos de mis proyectos destacados.</p>
 
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="../imagenes/pnp.png" alt="Proyecto 1" class="project-img">
-                <h5>Proyecto 1: PNP</h5>
-                <p>Desarrollo de una plataforma web para la gestión de datos.</p>
-                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+        <div class="proyectos">
+            <div class="proyecto">
+                <img src="../imagenes/pnp.png" alt="Proyecto PNP">
+                <h3 class="text-light">Proyecto PNP</h3>
+                <p class="text-secondary">el seguimiento de delitos cometidos por personas civiles se gestiona principalmente a través de plataformas digitales implementadas por el Ministerio Público. Una de las herramientas clave es el servicio de Seguimiento de Denuncias, que permite a los ciudadanos consultar el estado de sus denuncias utilizando su número de DNI.</p>
             </div>
-
-            <div class="project-card">
-                <img src="../imagenes/doc.png" alt="Proyecto 2" class="project-img">
-                <h5>Proyecto 2: Gestión documental</h5>
-                <p>Sistema para organizar y administrar documentos digitales.</p>
-                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            <div class="proyecto">
+                <img src="../imagenes/doc.png" alt="Proyecto DOC">
+                <h3 class="text-light">Proyecto DOC</h3>
+                <p class="text-secondary">La gestión documental con SharePoint, Power Apps y Power Automate permite almacenar, organizar y automatizar el flujo de documentos dentro de una empresa. SharePoint actúa como un repositorio central para la gestión y colaboración de archivos. Power Apps permite crear aplicaciones personalizadas para visualizar y gestionar documentos de forma intuitiva.</p>
             </div>
-
-            <div class="project-card">
-                <img src="../imagenes/cvc.jpg" alt="Proyecto 3" class="project-img">
-                <h5>Proyecto 3: Becario Sociedad Minera Cerro Verde</h5>
-                <p>Aplicación para gestión de becarios en la empresa minera.</p>
-                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            <div class="proyecto">
+                <img src="../imagenes/cvc.jpg" alt="Proyecto CVC">
+                <h3 class="text-light">Proyecto CV</h3>
+                <p class="text-secondary">El Programa de Becarios 2025 de Sociedad Minera Cerro Verde S.A.A. está dirigido a egresados y bachilleres universitarios que hayan culminado sus estudios entre diciembre de 2023 y diciembre de 2024. Este programa ofrece oportunidades en diversas áreas profesionales, incluyendo Administración, Ingeniería, Derecho, Contabilidad, entre otras. </p>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Wanser Herrera Villa.</p>
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2025 Wanser Herrera Villa</p>
     </footer>
 
     <!-- Bootstrap JS -->
