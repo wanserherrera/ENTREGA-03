@@ -1,0 +1,65 @@
+// Definimos las variables de colores
+$azul-electrico: #007BFF;
+$purpura-oscuro: #5A189A;
+$negro-azulado: #1B1B2F;
+$verde-neon: #00E676;
+$blanco: #FFFFFF;
+$gris: #6C757D;
+
+// Estilos generales
+body {
+    background-color: $negro-azulado;
+    color: $blanco;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: $azul-electrico;
+}
+
+p {
+    color: $gris;
+}
+
+// Navbar
+.navbar {
+    background-color: $purpura-oscuro !important;
+
+    .nav-link {
+        color: $blanco !important;
+        
+        &:hover {
+            color: $verde-neon !important;
+        }
+    }
+}
+
+// Botones
+.btn-primary {
+    background-color: $azul-electrico;
+    border: none;
+    
+    &:hover {
+        background-color: darken($azul-electrico, 10%);
+    }
+}
+
+// Secciones generales
+.container {
+    padding: 20px;
+}
+
+// Footer
+footer {
+    background-color: $purpura-oscuro;
+    text-align: center;
+    padding: 15px;
+    color: $blanco;
+}
+
+// Media Queries
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
